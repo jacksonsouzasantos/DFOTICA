@@ -38,13 +38,17 @@ export default function Home() {
         }`}
       >
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg glass-effect flex items-center justify-center">
-              <span className="text-lg font-bold text-emerald-400">DF</span>
-            </div>
-            <span className="text-xl font-bold hidden sm:inline">DF Ótica</span>
-          </div>
+{/* Logo */}
+<div className="flex items-center gap-2">
+  <div className="w-10 h-10 rounded-lg glass-effect flex items-center justify-center overflow-hidden">
+    <img 
+      src="/../logo.png" 
+      alt="Logo DF" 
+      className="w-full h-full object-contain"
+    />
+  </div>
+  <span className="text-xl font-bold hidden sm:inline">DF Ótica</span>
+</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
